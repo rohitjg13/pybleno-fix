@@ -8,6 +8,8 @@ and this repository is a direct port of that code-base. A huge thanks to Sandeep
 
 Effort has been made to maintain the same code structure to aid in parallel maintenance with Bleno.
 
+It now supports latest Raspberry Pi Kernel(Tested on 6.12.25+rpt-rpi-2712).
+
 __Note:__ Currently only tested on Linux Raspbian
 
 ## Prerequisites
@@ -16,7 +18,7 @@ Please read the [original nodejs Bleno prerequisites](https://github.com/noble/b
 ## Install
 
 ```sh
-pip install pybleno
+pip install git+https://github.com/rohitjg13/pybleno-fix.git
 ```
 
 ## Usage
